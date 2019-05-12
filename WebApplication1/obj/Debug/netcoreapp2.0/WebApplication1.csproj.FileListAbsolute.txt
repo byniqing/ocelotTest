@@ -1,0 +1,3 @@
+F:\project\User.Api\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csproj.CoreCompileInputs.cache
+F:\project\User.Api\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfoInputs.cache
+F:\project\User.Api\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfo.cs

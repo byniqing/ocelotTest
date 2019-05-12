@@ -1,0 +1,33 @@
+FROM microsoft/dotnet:sdk AS build_dev
+WORKDIR /code
+#COPY *.csproj /code
+#RUN dotnet restore
+
+COPY . /code
+RUN dotnet publish -c release -o out
+
+FROM microsoft/dotnet:runtime
+WORKDIR /app
+COPY --from=build_dev /code/out /app
+ENTRYPOINT ["dotnet","console.dll"]
+
+
+
+#microsoft/aspnetcore-build只支持net core 2.0,如果项目是2.2，就用sdk  microsoft/dotnet:sdk
+FROM microsoft/aspnetcore-build as build
+#WORKDIR 命令为后续的 RUN、CMD、COPY、ADD 等命令配置工作目录。在设置了 WORKDIR 命令后，接下来的 COPY 和 ADD 命令中的相对路径就是相对于 WORKDIR 指定的路径。
+WORKDIR /code 
+COPY *.csproj ./  # 所以这里的 . 是相对路径，相对于workdir，其实 就是/code 那么./ 就是/code/，或者直接用. 或者觉得路径：/code
+RUN dotnet restore
+COPY . ./
+RUN dotnet publish -c Release -o out # 把code中的文件publish
+
+FROM microsoft/aspnetcore
+WORKDIR /app
+COPY --from=build /code/out .
+
+EXPOSE 80
+ENTRYPOINT ["dotnet","User.Api.dll "] #入口，是容器运行的时候的入口，如果是run，是镜像打包执行运行
+
+
+

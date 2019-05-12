@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\project\\User.Api\\test01\\test01.csproj": {}
+  },
+  "projects": {
+    "F:\\project\\User.Api\\test01\\test01.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\project\\User.Api\\test01\\test01.csproj",
+        "projectName": "test01",
+        "projectPath": "F:\\project\\User.Api\\test01\\test01.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "F:\\project\\User.Api\\test01\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.9, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+﻿FROM microsoft/dotnet:2.2.0 as build
+WORKDIR /code 
+COPY *.csproj ./ 
+RUN dotnet restore
+COPY . ./
+RUN dotnet publish -c Release -o out 
+#microsoft/dotnet:2.2.0-aspnetcore-runtime
+FROM microsoft/aspnetcore
+WORKDIR /app
+COPY --from=build /code/out .
+
+EXPOSE 80
+ENTRYPOINT ["dotnet","User.Api.dll"] #入口，是容器运行的时候的入口，如果是run，是镜像打包执行运行
+
+
+
+#####################
+FROM microsoft/dotnet:2.2-aspnetcore-runtime
+WORKDIR /app
+COPY . .
+EXPOSE 80
+ENTRYPOINT ["dotnet","User.Api.dll"]
+
+
+
+FROM microsoft/aspnetcore-build:2.2-sdk as build-dev
+WORKDIR /code 
+COPY *.csproj /code 
+RUN dotnet restore
+COPY . /code
+RUN dotnet publish -c Release -o out 
+
+FROM microsoft/aspnetcore
+WORKDIR /app
+COPY --from=build-dev /code/out /app
+
+EXPOSE 80
+ENTRYPOINT ["dotnet","User.Api.dll"] #入口，是容器运行的时候的入口，如果是run，是镜像打包执行运行
+
+#microsoft/dotnet:2.2.0-aspnetcore-runtime
+
+
+
+

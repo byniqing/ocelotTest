@@ -1,0 +1,15 @@
+F:\project\User.Api\test02\ck\Dockerfile
+F:\project\User.Api\test02\ck\test02.deps.json
+F:\project\User.Api\test02\ck\test02.runtimeconfig.json
+F:\project\User.Api\test02\ck\test02.runtimeconfig.dev.json
+F:\project\User.Api\test02\ck\test02.dll
+F:\project\User.Api\test02\ck\test02.pdb
+F:\project\User.Api\test02\obj\Release\netcoreapp2.2\test02.csprojAssemblyReference.cache
+F:\project\User.Api\test02\obj\Release\netcoreapp2.2\test02.csproj.CoreCompileInputs.cache
+F:\project\User.Api\test02\obj\Release\netcoreapp2.2\test02.RazorAssemblyInfo.cache
+F:\project\User.Api\test02\obj\Release\netcoreapp2.2\test02.RazorAssemblyInfo.cs
+F:\project\User.Api\test02\obj\Release\netcoreapp2.2\test02.AssemblyInfoInputs.cache
+F:\project\User.Api\test02\obj\Release\netcoreapp2.2\test02.AssemblyInfo.cs
+F:\project\User.Api\test02\obj\Release\netcoreapp2.2\test02.RazorTargetAssemblyInfo.cache
+F:\project\User.Api\test02\obj\Release\netcoreapp2.2\test02.dll
+F:\project\User.Api\test02\obj\Release\netcoreapp2.2\test02.pdb

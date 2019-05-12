@@ -1,0 +1,14 @@
+F:\project\User.Api\User.Api\ck\User.Api.deps.json
+F:\project\User.Api\User.Api\ck\User.Api.runtimeconfig.json
+F:\project\User.Api\User.Api\ck\User.Api.runtimeconfig.dev.json
+F:\project\User.Api\User.Api\ck\User.Api.dll
+F:\project\User.Api\User.Api\ck\User.Api.pdb
+F:\project\User.Api\User.Api\obj\Release\netcoreapp2.2\User.Api.csprojAssemblyReference.cache
+F:\project\User.Api\User.Api\obj\Release\netcoreapp2.2\User.Api.csproj.CoreCompileInputs.cache
+F:\project\User.Api\User.Api\obj\Release\netcoreapp2.2\User.Api.RazorAssemblyInfo.cache
+F:\project\User.Api\User.Api\obj\Release\netcoreapp2.2\User.Api.RazorAssemblyInfo.cs
+F:\project\User.Api\User.Api\obj\Release\netcoreapp2.2\User.Api.AssemblyInfoInputs.cache
+F:\project\User.Api\User.Api\obj\Release\netcoreapp2.2\User.Api.AssemblyInfo.cs
+F:\project\User.Api\User.Api\obj\Release\netcoreapp2.2\User.Api.RazorTargetAssemblyInfo.cache
+F:\project\User.Api\User.Api\obj\Release\netcoreapp2.2\User.Api.dll
+F:\project\User.Api\User.Api\obj\Release\netcoreapp2.2\User.Api.pdb
