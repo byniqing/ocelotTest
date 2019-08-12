@@ -2,13 +2,13 @@ F:\project\User.Api\User.Api\bin\Debug\netcoreapp2.2\User.Api.deps.json
 F:\project\User.Api\User.Api\bin\Debug\netcoreapp2.2\User.Api.runtimeconfig.json
 F:\project\User.Api\User.Api\bin\Debug\netcoreapp2.2\User.Api.runtimeconfig.dev.json
 F:\project\User.Api\User.Api\bin\Debug\netcoreapp2.2\User.Api.dll
-F:\project\User.Api\User.Api\bin\Debug\netcoreapp2.2\User.Api.pdb
-F:\project\User.Api\User.Api\obj\Debug\netcoreapp2.2\User.Api.csprojAssemblyReference.cache
 F:\project\User.Api\User.Api\obj\Debug\netcoreapp2.2\User.Api.csproj.CoreCompileInputs.cache
 F:\project\User.Api\User.Api\obj\Debug\netcoreapp2.2\User.Api.RazorAssemblyInfo.cache
 F:\project\User.Api\User.Api\obj\Debug\netcoreapp2.2\User.Api.RazorAssemblyInfo.cs
 F:\project\User.Api\User.Api\obj\Debug\netcoreapp2.2\User.Api.AssemblyInfoInputs.cache
 F:\project\User.Api\User.Api\obj\Debug\netcoreapp2.2\User.Api.AssemblyInfo.cs
 F:\project\User.Api\User.Api\obj\Debug\netcoreapp2.2\User.Api.RazorTargetAssemblyInfo.cache
+F:\project\User.Api\User.Api\bin\Debug\netcoreapp2.2\User.Api.pdb
 F:\project\User.Api\User.Api\obj\Debug\netcoreapp2.2\User.Api.dll
 F:\project\User.Api\User.Api\obj\Debug\netcoreapp2.2\User.Api.pdb
+F:\project\User.Api\User.Api\obj\Debug\netcoreapp2.2\User.Api.csprojAssemblyReference.cache

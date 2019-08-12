@@ -1,3 +1,10 @@
+F:\project\User.Api\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.deps.json
+F:\project\User.Api\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.json
+F:\project\User.Api\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.dev.json
+F:\project\User.Api\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.dll
+F:\project\User.Api\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.pdb
 F:\project\User.Api\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csproj.CoreCompileInputs.cache
 F:\project\User.Api\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfoInputs.cache
 F:\project\User.Api\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfo.cs
+F:\project\User.Api\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.dll
+F:\project\User.Api\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.pdb

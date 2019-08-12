@@ -1,0 +1,14 @@
+F:\project\User.Api\Api2\bin\Debug\netcoreapp2.2\Api2.deps.json
+F:\project\User.Api\Api2\bin\Debug\netcoreapp2.2\Api2.runtimeconfig.json
+F:\project\User.Api\Api2\bin\Debug\netcoreapp2.2\Api2.runtimeconfig.dev.json
+F:\project\User.Api\Api2\bin\Debug\netcoreapp2.2\Api2.dll
+F:\project\User.Api\Api2\obj\Debug\netcoreapp2.2\Api2.csproj.CoreCompileInputs.cache
+F:\project\User.Api\Api2\obj\Debug\netcoreapp2.2\Api2.RazorAssemblyInfo.cache
+F:\project\User.Api\Api2\obj\Debug\netcoreapp2.2\Api2.RazorAssemblyInfo.cs
+F:\project\User.Api\Api2\obj\Debug\netcoreapp2.2\Api2.AssemblyInfoInputs.cache
+F:\project\User.Api\Api2\obj\Debug\netcoreapp2.2\Api2.AssemblyInfo.cs
+F:\project\User.Api\Api2\obj\Debug\netcoreapp2.2\Api2.RazorTargetAssemblyInfo.cache
+F:\project\User.Api\Api2\bin\Debug\netcoreapp2.2\Api2.pdb
+F:\project\User.Api\Api2\obj\Debug\netcoreapp2.2\Api2.dll
+F:\project\User.Api\Api2\obj\Debug\netcoreapp2.2\Api2.pdb
+F:\project\User.Api\Api2\obj\Debug\netcoreapp2.2\Api2.csprojAssemblyReference.cache

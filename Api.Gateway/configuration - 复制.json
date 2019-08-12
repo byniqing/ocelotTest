@@ -1,0 +1,36 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/values",
+      "DownstreamScheme": "http",
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 5000
+      //  }
+      //],
+      "UpstreamPathTemplate": "/sss",
+      "UpstreamHttpMethod": [ "Get" ],
+      "ReRoutesCaseSensitive": false,
+      /*
+      当请求上游地址 /values 的时候
+      就会去找consul服务发现，去找到serviceName对应的地址，
+      然后进行转发
+      */
+      "ServiceName": "serviceName",
+      //"LoadBalancer": "LeastConnection",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "UseServiceDiscovery": true
+
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5003",
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": "8500"
+    }
+  }
+}

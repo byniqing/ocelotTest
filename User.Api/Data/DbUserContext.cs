@@ -20,10 +20,18 @@ namespace User.Api.Data
         /// <param name="modelBuilder"></param>
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //修改默认的AppUser表名，改为user
+            ////修改默认的AppUser表名，改为user
             modelBuilder.Entity<AppUser>()
                 .ToTable("Users") //表名
+                                  //.Property(p=>p.Id).ValueGeneratedOnAdd()
                 .HasKey(u => u.Id); //主键
+
+            //modelBuilder.Entity<AppUser>(entity => {
+            //    entity.ToTable("Users"); //表名
+            //    entity.HasKey(k => k.Id); //主键
+            //    entity.Property(p => p.Id).ValueGeneratedOnAdd(); //主键自增
+            //});
+
             base.OnModelCreating(modelBuilder);
         }
 

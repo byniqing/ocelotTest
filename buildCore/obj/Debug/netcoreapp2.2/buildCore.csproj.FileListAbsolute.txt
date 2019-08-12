@@ -1,0 +1,10 @@
+F:\project\User.Api\buildCore\bin\Debug\netcoreapp2.2\buildCore.deps.json
+F:\project\User.Api\buildCore\bin\Debug\netcoreapp2.2\buildCore.runtimeconfig.json
+F:\project\User.Api\buildCore\bin\Debug\netcoreapp2.2\buildCore.runtimeconfig.dev.json
+F:\project\User.Api\buildCore\bin\Debug\netcoreapp2.2\buildCore.dll
+F:\project\User.Api\buildCore\bin\Debug\netcoreapp2.2\buildCore.pdb
+F:\project\User.Api\buildCore\obj\Debug\netcoreapp2.2\buildCore.csproj.CoreCompileInputs.cache
+F:\project\User.Api\buildCore\obj\Debug\netcoreapp2.2\buildCore.AssemblyInfoInputs.cache
+F:\project\User.Api\buildCore\obj\Debug\netcoreapp2.2\buildCore.AssemblyInfo.cs
+F:\project\User.Api\buildCore\obj\Debug\netcoreapp2.2\buildCore.dll
+F:\project\User.Api\buildCore\obj\Debug\netcoreapp2.2\buildCore.pdb
